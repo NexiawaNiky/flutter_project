@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_project/FormRegistration.dart';
 import 'package:flutter_project/Kalkulator.dart';
+import 'package:flutter_project/SecondRoute.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const Kalkulator(),
+      home: const FormRegistration(),
     );
   }
 }
